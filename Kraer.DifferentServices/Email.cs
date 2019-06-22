@@ -9,7 +9,7 @@ namespace Kraer.DifferentServices
    public class Email
     {
         public static void SendMail(string sendermail, string senderpass, string recivermail, string subject, string mailbody)
-        {
+        {//
 
             //  if (String.IsNullOrWhiteSpace(senderpass) && !sendermail.Contains("@")) throw new ArgumentException(nameof(sendermail));
             if (String.IsNullOrWhiteSpace(senderpass)) throw new ArgumentException(nameof(senderpass));
